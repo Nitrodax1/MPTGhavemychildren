@@ -145,41 +145,7 @@
 
     </script>
 
-<script type="module">
-  
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
-
-    import { getDatabase } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-database.js"
-  
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
-
-    const firebaseConfig = {
-
-    databaseURL: "https://traveladdict-e7037-default-rtdb.firebaseio.com",
-  
-      apiKey: "AIzaSyDNv9kggxZD6eekY4_MR74GNs_hQxPms8w",
-  
-      authDomain: "traveladdict-e7037.firebaseapp.com",
-  
-      projectId: "traveladdict-e7037",
-  
-      storageBucket: "traveladdict-e7037.appspot.com",
-  
-      messagingSenderId: "590300434587",
-  
-      appId: "1:590300434587:web:0ed0cbd7ecf61bee69763e",
-  
-      measurementId: "G-3DB8DX0S2Y"
-  
-    };
-  
-    const app = initializeApp(firebaseConfig);
-    const database = getDatabase(app);
-    console.log("SMD")
-  
-    const analytics = getAnalytics(app);
-  
-  </script>
+		<script src="./dist/bundle.js"></script>
 
 </body>
 
